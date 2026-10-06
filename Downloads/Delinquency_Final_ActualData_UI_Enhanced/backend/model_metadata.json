@@ -1,0 +1,53 @@
+{
+  "rows": 500,
+  "columns": [
+    "Customer_ID",
+    "Age",
+    "Income",
+    "Credit_Score",
+    "Credit_Utilization",
+    "Missed_Payments",
+    "Delinquent_Account",
+    "Loan_Balance",
+    "Debt_to_Income_Ratio",
+    "Employment_Status",
+    "Account_Tenure",
+    "Credit_Card_Type",
+    "Location",
+    "Month_1",
+    "Month_2",
+    "Month_3",
+    "Month_4",
+    "Month_5",
+    "Month_6"
+  ],
+  "accuracy": 0.34,
+  "employment_options": [
+    "EMP",
+    "Employed",
+    "Self-employed",
+    "Unemployed",
+    "employed",
+    "retired"
+  ],
+  "card_options": [
+    "Business",
+    "Gold",
+    "Platinum",
+    "Standard",
+    "Student"
+  ],
+  "location_options": [
+    "Chicago",
+    "Houston",
+    "Los Angeles",
+    "New York",
+    "Phoenix"
+  ],
+  "payment_options": [
+    "On-time",
+    "Late",
+    "Missed"
+  ],
+  "target": "Month_6"
+}
